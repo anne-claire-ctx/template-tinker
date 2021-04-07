@@ -1,5 +1,81 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container-navbar {
+    background: url("img/banner_bg.jpg") no-repeat;
+    min-height: 100vh;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+}
+.navbar a, .logo {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor : pointer;
+    font-size: 13px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+}
+.navbar a {
+    margin-left: 30px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+}
+.logo span {
+	font-style: normal;
+	color: #f7c552;
+	font-size: 32px;
+    font-weight: 800;
+}
+.banner-content {
+    text-align: center;
+
+}
+.banner-content h2 {
+    font-size: 36px;
+	font-weight: 400;
+	color: #fff;
+}
+.banner-content h2 span {
+	font-weight: 700;
+	color: #f89624
+}
+.banner-content h2 em {
+    font-style: normal;
+    font-weight: 700;
+	color: #33c1cf
+}
+.banner-content p {
+    font-size: 14px;
+	line-height: 24px;
+	padding: 0px 25%;
+    color: #fff;
+}
+.text-banner {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: #fff;
+	font-size: 13px;
+	padding: 12px 18px;
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
 }
