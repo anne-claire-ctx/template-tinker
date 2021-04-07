@@ -1,5 +1,59 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*===========*/
+/*===CARDS===*/
+/*===========*/
+
+/* Global */
+.cards {
+  background-image: url(img/about-bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.box-cards {
+  display: flex;
+  text-align: center;
+  padding: 0 10rem;
+  color: white;
+}
+
+.alerts,
+.lovely,
+.always,
+.one-click {
+  padding: 0 2.5rem;
+  line-height: 1.5rem;
+}
+
+.cards img {
+  background-color: #f6c45c;
+  padding: 1.3rem;
+  border-radius: 50px;
+  border: solid 2px white;
+}
+
+.cards .box-cards h2 {
+  letter-spacing: 0.2rem;
+  display: block;
+  border-bottom: solid 1px rgb(253, 253, 253);
+  line-height: 5.5rem;
+}
+
+.cards .box-cards button {
+  background-color: #3dc1cd;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-size: smaller;
+  margin-top: 2rem;
+  cursor: pointer;
 }
