@@ -131,6 +131,41 @@ body {
     color: #f7c552;
 }
 
+
+/*********************/
+/*******SLIDER*******/
+/*********************/
+.slider {
+    background-color: #f7c552;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+}
+.quote p {
+    background-color: #fff;
+    color: lightgray;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 20px 150px;
+    height: 50px;
+    padding: 70px 0;
+}
+.quote h4, .quote h5 {
+    color: white;
+}
+.quote h5 {
+    font-weight: 100;
+    font-size: small;
+    margin-bottom: 45px;
+}
+
+
 /*********************/
 /*******CONTACT*******/
 /*********************/

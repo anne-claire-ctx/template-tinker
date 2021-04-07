@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="src/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <title>Template tinker</title>
 </head>
 <body>
@@ -57,10 +58,40 @@
         </div>
     </div>
     <div class="slider">
-
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="quote">
+                      <p>"Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo."</p>
+                      <h4>Richard Beal</h4>
+                      <h5>CSS Developer</h5>
+                  </div>
+                </div>
+              <div class="swiper-slide">
+                <div class="quote">
+                    <p>"Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo."</p>
+                    <h4>Richard Beal</h4>
+                    <h5>CSS Developer</h5>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quote">
+                    <p>"Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo."</p>
+                    <h4>Richard Beal</h4>
+                    <h5>CSS Developer</h5>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quote">
+                    <p>"Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo."</p>
+                    <h4>Richard Beal</h4>
+                    <h5>CSS Developer</h5>
+                </div>
+              </div>
+            </div>
+        <div class="swiper-pagination"></div>
     </div>
     <div class="blog">
-
     </div>
     <div class="contact">
         <div class="bloc-contact">
@@ -77,5 +108,18 @@
     <footer>
         
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 </html>
