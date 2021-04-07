@@ -130,3 +130,42 @@ body {
 .filters ul li a span {
     color: #f7c552;
 }
+
+/*********************/
+/*******CONTACT*******/
+/*********************/
+
+.bloc-contact {
+    background-color: #596065;
+    text-align: center;
+    padding: 45px 0;
+}
+.text-contact {
+    margin: 0 160px;
+}
+.text-contact h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: solid white 0.5px;
+    margin: auto 200px;
+    padding-bottom: 20px;
+}
+.text-contact p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.button-contact {
+    background-color: #33c1cf;
+	font-size: 13px;
+	padding: 12px 18px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
