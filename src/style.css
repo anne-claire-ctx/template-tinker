@@ -8,7 +8,6 @@ body {
 /*===CARDS===*/
 /*===========*/
 
-/* Global */
 .cards {
   background-image: url(img/about-bg.jpg);
   background-size: cover;
@@ -44,6 +43,7 @@ body {
   display: block;
   border-bottom: solid 1px rgb(253, 253, 253);
   line-height: 5.5rem;
+  white-space: nowrap;
 }
 
 .cards .box-cards button {
@@ -56,4 +56,84 @@ body {
   font-size: smaller;
   margin-top: 2rem;
   cursor: pointer;
+}
+
+/*===========*/
+/*===Blog====*/
+/*===========*/
+
+/* Global */
+
+.blog {
+  display: flex;
+  min-height: 50vh;
+  background-image: url(img/blog-bg.jpg);
+  background-size: cover;
+}
+
+.blog-left {
+  width: 40%;
+  display: flex;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.blog-article {
+  width: 60%;
+}
+
+/* Partie Gauche */
+
+.blog-posts {
+  color: white;
+  width: 18rem;
+  margin: 1rem auto;
+  opacity: 1;
+}
+
+.post1,
+.post2,
+.post3,
+.post4 {
+  background-color: white;
+  width: 15rem;
+  text-align: center;
+  box-shadow: 1px 1px 0;
+  padding: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.blog .blog-posts a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.blog .blog-posts a:hover {
+  color: #f6c45c;
+}
+
+/* Partie Droite */
+.blog-article {
+  margin-top: 3rem;
+}
+.blog-article h1 {
+  font-size: 1.1rem;
+}
+
+.blog-article img {
+  width: 45rem;
+}
+.article-slider {
+  box-shadow: 1px 1px 1px;
+  width: 45rem;
+  background-color: white;
+}
+
+.text-article {
+  padding: 1rem 2rem;
+}
+
+.digital-blue {
+  color: #33c1cf;
 }
