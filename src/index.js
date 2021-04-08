@@ -8,29 +8,31 @@ const btn4 = document.querySelector(".post4");
 const slider4 = document.querySelector("#slider4");
 
 btn1.addEventListener("click", () => {
-  slider1.classList.toggle("show");
-  slider2.classList.toggle("hidden");
-  slider3.classList.toggle("hidden");
-  slider4.classList.toggle("hidden");
+  slider1.classList.add("show");
+  slider2.classList.remove("show");
+  slider3.classList.remove("show");
+  slider4.classList.remove("show");
 });
 
 btn2.addEventListener("click", () => {
-  slider1.classList.toggle("hidden");
-  slider2.classList.toggle("show");
-  slider3.classList.toggle("hidden");
-  slider4.classList.toggle("hidden");
+  slider1.classList.remove("show");
+  slider2.classList.add("show");
+  slider3.classList.remove("show");
+  slider4.classList.remove("show");
 });
 
 btn3.addEventListener("click", () => {
-  slider1.classList.toggle("hidden");
-  slider2.classList.toggle("hidden");
-  slider3.classList.toggle("show");
-  slider4.classList.toggle("hidden");
+  slider1.classList.remove("show");
+  slider2.classList.remove("show");
+  slider3.classList.add("show");
+  slider4.classList.remove("show");
 });
 
 btn4.addEventListener("click", () => {
-  slider1.classList.toggle("hidden");
-  slider2.classList.toggle("hidden");
-  slider3.classList.toggle("hidden");
-  slider4.classList.toggle("show");
+  slider1.classList.remove("show");
+  slider2.classList.remove("show");
+  slider3.classList.remove("show");
+  slider4.classList.add("show");
 });
+
+// .forEach
