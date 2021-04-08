@@ -66,7 +66,7 @@ body {
 
 .blog {
   display: flex;
-  min-height: 70vh;
+  min-height: 80vh;
   background-image: url(img/blog-bg.jpg);
   background-size: cover;
 }
@@ -111,6 +111,12 @@ body {
 
 .blog .blog-posts button:hover {
   color: #f6c45c;
+}
+
+.blog-left h1 {
+  border-bottom: solid 1px rgb(255, 255, 255);
+  padding-bottom: 1.5rem;
+  width: 15rem;
 }
 
 /* Partie Droite */
